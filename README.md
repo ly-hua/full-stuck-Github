@@ -3,22 +3,22 @@
 # PHP Product Management System
 A lightweight, user-authenticated product management dashboard built with PHP, MySQL, and Bootstrap. It allows you to manage products, categories, and users with secure CRUD operations.
 
-## 📦 Project Overview
+## Project Overview
 
 This system provides:
 
-- ✅ User login and session management
-- ✅ Add, edit, delete products
-- ✅ Add, edit, delete categories
-- ✅ Assign products to categories
-- ✅ Filter and search products by name, SKU, or category
-- ✅ Responsive UI using Bootstrap 5
+- User login and session management
+- Add, edit, delete products
+- Add, edit, delete categories
+- Assign products to categories
+- Filter and search products by name, SKU, or category
+- Responsive UI using Bootstrap 5
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
-### ✅ Requirements
+### Requirements
 
 - PHP 8+
 - MySQL 5.7+ or MariaDB
@@ -76,7 +76,7 @@ This system provides:
 
 ---
 
-## 🌐 Run the Project
+## Run the Project
 
 Start Apache and MySQL from XAMPP, then visit:
 
@@ -88,7 +88,7 @@ Log in with your user (add manually to DB if needed), and access the dashboard.
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 ### `.env.example`
 
@@ -105,7 +105,7 @@ DB_PASS=
 ---
 
 ## Folder Structure
-
+```
 php_project/
 ├── auth/
 │   ├── add_category.php
@@ -119,4 +119,4 @@ php_project/
 ├── logout.php
 ├── index.html
 └── .env
-
+```
